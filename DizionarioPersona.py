@@ -18,3 +18,8 @@ if chiave in dizionario:
     print(f"La chiave '{chiave}' è presente nel dizionario con valore {dizionario.get(chiave)}")
 else:
     print(f"Chiave non trovata, {dizionario.get(chiave)}")
+
+# parte 4
+dati = {"nome": "Giulia", "età": 22, "città": "Napoli", "indirizzo": "Via Garibaldi 111"}
+dati.pop("indirizzo")
+print(dati)
